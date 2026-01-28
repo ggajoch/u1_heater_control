@@ -122,23 +122,8 @@ UniqueId=86ef1578-0d6e-4e12-b162-c6a97dd076d6
 Description=now
 AllowFabrication=0
 ParameterCount=0
-VariationCount=16
-Variation1=Designator=C11|UniqueId=\OTHTMFLX|Kind=1|AlternatePart=
-Variation2=Designator=MOD1|UniqueId=\DSKKQSLJ|Kind=1|AlternatePart=
-Variation3=Designator=P1|UniqueId=\LOMVIFDS|Kind=1|AlternatePart=
-Variation4=Designator=J2|UniqueId=\DBYPXTGA|Kind=1|AlternatePart=
-Variation5=Designator=C3|UniqueId=\PPXFCQVM|Kind=1|AlternatePart=
-Variation6=Designator=C1|UniqueId=\SBIYQMQQ|Kind=1|AlternatePart=
-Variation7=Designator=C2|UniqueId=\NROISLCL|Kind=1|AlternatePart=
-Variation8=Designator=D1|UniqueId=\VUWKDOIR|Kind=1|AlternatePart=
-Variation9=Designator=R2|UniqueId=\RYEZQKPI|Kind=1|AlternatePart=
-Variation10=Designator=Q1|UniqueId=\ITXGAJMH|Kind=1|AlternatePart=
-Variation11=Designator=R3|UniqueId=\OWXMMMZG|Kind=1|AlternatePart=
-Variation12=Designator=Q2|UniqueId=\RGKPKHUK|Kind=1|AlternatePart=
-Variation13=Designator=R4|UniqueId=\PEJHGSES|Kind=1|AlternatePart=
-Variation14=Designator=J4|UniqueId=\DKVVELKC|Kind=1|AlternatePart=
-Variation15=Designator=J3|UniqueId=\WQRCIMFA|Kind=1|AlternatePart=
-Variation16=Designator=J1|UniqueId=\ITMMJPOU|Kind=1|AlternatePart=
+VariationCount=1
+Variation1=Designator=MOD1|UniqueId=\DSKKQSLJ|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Configuration1]
@@ -549,6 +534,11 @@ OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType10=BOM_ReportManufacturing
+OutputName10=Manufacturing Data
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -842,6 +832,9 @@ Type155=1
 Type156=1
 Type157=1
 Type158=1
+Type159=1
+Type160=1
+Type161=1
 
 [Difference Levels]
 Type1=1
@@ -930,6 +923,8 @@ Type83=1
 Type84=1
 Type85=1
 Type86=1
+Type87=1
+Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1093,6 +1088,10 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
